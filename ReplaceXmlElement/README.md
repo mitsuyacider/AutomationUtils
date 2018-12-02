@@ -1,0 +1,51 @@
+**Before**
+```
+<annotation>
+  <folder>images</folder>
+  <filename>IMG_2703</filename>
+  <size>
+    <width>1000</width>
+    <height>750</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>build</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>113</ymin>
+      <xmax>127</xmax>
+      <ymax>246</ymax>
+    </bndbox>
+  </object>
+</annotation>
+```
+
+**After**
+```
+<annotation>
+  <folder>images</folder>
+  <filename>IMG_2703.jpg</filename>
+  <size>
+    <width>1000</width>
+    <height>750</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>build</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>113</ymin>
+      <xmax>127</xmax>
+      <ymax>246</ymax>
+    </bndbox>
+  </object>
+</annotation>
+```
