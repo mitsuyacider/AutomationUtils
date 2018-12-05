@@ -11,3 +11,5 @@ Execute automation task such as moving all files in a directory to the other dir
   - Replace xml element.
 * ResizeImage
   - Change image size using ffmpeg.
+* AudioCutoff
+  - Cutoff audio time to specific duration.
